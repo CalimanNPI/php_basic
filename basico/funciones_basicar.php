@@ -92,6 +92,8 @@ var_dump($x !== $y); //
 $x--; //antes 
 --$x; //despues
 
+// Retorno de valor nulo, "", false  return $valor1 ?? $valor2
+
 //condicional if
 if ($x <= $y) {
     echo 'menor' . '<br>';
